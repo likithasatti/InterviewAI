@@ -1,73 +1,124 @@
-**AI Interview Assistant**
-**Project Overview**
+AI Interview Assistant Project Overview
+1. Introduction
 
-AI Interview Assistant is an AI-powered web application developed to help students and job seekers prepare for interviews in a smarter and more personalized way. The main objective of this project is to generate interview questions automatically based on the user’s uploaded resume. Instead of practicing common interview questions, users can receive questions related to their own skills, projects, education, and technical knowledge mentioned in the resume.
+AI Interview Assistant is an AI-powered web application designed to help students and job seekers prepare for interviews in a smarter and more personalized way.
 
-This project is designed using a full-stack architecture with a FastAPI backend and a Streamlit frontend. The backend handles resume processing, text extraction, and AI-based question generation, while the frontend provides a simple and interactive user interface for users to upload resumes and view generated questions.
- 
-The application uses Large Language Models (LLMs) through Ollama, such as Llama 3 and TinyLlama, to generate intelligent interview questions dynamically. This makes the system more interactive and realistic compared to traditional interview preparation platforms. The generated questions help users practice technical, project-based, and HR interview scenarios.
+The system automatically generates interview questions based on the user’s uploaded resume. Instead of practicing common questions, users receive personalized technical, project-based, and HR questions related to their own resume content.
 
-The project also includes additional features like a login and registration system, dashboard interface, and dark mode support to improve user experience and usability. The dashboard helps users organize and access the generated interview content easily.
+2. Project Objective
 
-**Key Features**
-Resume Upload in PDF format
-AI-generated interview questions
-Personalized question generation
-Login and Registration system
-Dashboard interface
-Dark mode support
-FastAPI backend integration
-Streamlit frontend interface
+The main objective of this project is to:
 
-**Technologies Used**
-Python
-FastAPI
-Streamlit
-Ollama
-Llama 3 / TinyLlama
-Git & GitHub
-Learning Outcomes
+Automate interview preparation
+Generate AI-based interview questions
+Evaluate user answers
+Provide feedback and scoring
+Improve interview confidence and communication skills
+3. System Architecture
+Frontend
+Built using Streamlit
+Provides user interface for:
+Login/Register
+Resume Upload
+Interview Session
+Results Dashboard
+Backend
+Built using FastAPI
+Handles:
+Resume processing
+API endpoints
+AI integration
+Answer evaluation
+AI Model
+Uses Ollama
+Models used:
+Llama 3
+TinyLlama
+4. Key Features
+Resume Upload
+Upload resume in PDF format
+Extracts resume text automatically
+AI Question Generation
+Generates personalized interview questions
+Includes technical and HR questions
+Interview Mode
+Users answer AI-generated questions
+Interactive interview experience
+AI Evaluation
+AI evaluates user answers
+Generates score and feedback
+Dashboard Interface
+Clean and user-friendly interface
+Displays interview results
+Login & Registration
+User authentication system
+Secure access to application
+5. Technologies Used
+Technology	Purpose
+Python	Core programming language
+FastAPI	Backend framework
+Streamlit	Frontend framework
+Ollama	AI model integration
+Llama 3	Question generation
+Git & GitHub	Version control
+6. Workflow of the Project
+Resume Upload
+      ↓
+Extract Resume Text
+      ↓
+AI Generates Questions
+      ↓
+User Answers Questions
+      ↓
+AI Evaluates Answers
+      ↓
+Feedback + Score
+7. Learning Outcomes
 
-**This project helped in understanding**
-Full-stack web application development
+This project helped in understanding:
+
+Full-stack web development
 Frontend and backend integration
-API development using FastAPI
-AI model integration with applications
-Resume parsing and text extraction
+REST API development
+AI model integration
+Resume parsing techniques
+Streamlit UI development
+FastAPI backend development
 GitHub version control
-User interface development using Streamlit
-
-**How to Run the Project**
+8. How to Run the Project
 Step 1 — Open Project Folder
-Open terminal inside the project folder:
 InterviewAI
 Step 2 — Activate Virtual Environment
 venv\Scripts\activate
-Step 3 — Run Backend
+Step 3 — Run Backend Server
 uvicorn main:app --reload
-Backend runs on:
+
+Backend URL:
+
 http://127.0.0.1:8000
-Swagger API Docs:
+
+Swagger API Documentation:
+
 http://127.0.0.1:8000/docs
-Step 4 — Open New Terminal
-Move to frontend folder:
+Step 4 — Run Frontend
+
+Open a new terminal:
+
 cd frontend
-Run Streamlit app:
+
+Run Streamlit application:
+
 streamlit run app.py
 Step 5 — Use the Application
-Upload resume in PDF format
-AI generates interview questions
-Practice interview preparation interactively
-
-**Workflow of the project**
-Resume Upload
-↓
-Extract Resume Text 
-↓
-AI Generates Questions
-↓
-User Answers
-↓
-AI Evaluates Answers
-↓
-Feedback + Score
+Login/Register
+Upload Resume
+Generate Questions
+Answer Questions
+View Feedback & Score
+9. Future Enhancements
+Database integration using MySQL
+Voice-based interview system
+AI speech analysis
+Interview performance analytics
+Cloud deployment
+Multi-user support
