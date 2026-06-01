@@ -122,3 +122,13 @@ AI speech analysis
 Interview performance analytics
 Cloud deployment
 Multi-user support
+
+**Screenshots**
+<img width="1200" height="655" alt="Screenshot 2026-06-01 155510" src="https://github.com/user-attachments/assets/16ac206c-d105-42eb-bfc5-a46feb47785a" />
+<img width="1434" height="723" alt="Screenshot 2026-06-01 155538" src="https://github.com/user-attachments/assets/58275beb-1800-46fc-8883-cc104557b6fe" />
+<img width="1468" height="739" alt="Screenshot 2026-06-01 155604" src="https://github.com/user-attachments/assets/fbe4f3bf-00ae-47b3-b471-6a3661faf102" />
+<img width="1458" height="745" alt="Screenshot 2026-06-01 155627" src="https://github.com/user-attachments/assets/b8dc5f9e-5c8f-48c0-b104-0b08ca3b163e" />
+<img width="1360" height="752" alt="Screenshot 2026-06-01 155658" src="https://github.com/user-attachments/assets/6c42dba4-119d-4f7b-aed3-9a150b8e3b3b" />
+
+
+
