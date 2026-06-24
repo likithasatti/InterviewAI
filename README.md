@@ -1,7 +1,7 @@
-AI Interview Assistant Project Overview
+InterviewAI Project Overview
 1. Introduction
 
-AI Interview Assistant is an AI-powered web application designed to help students and job seekers prepare for interviews in a smarter and more personalized way.
+InterviewAI is an AI-powered web application designed to help students and job seekers prepare for interviews in a smarter and more personalized way.
 
 The system automatically generates interview questions based on the user’s uploaded resume. Instead of practicing common questions, users receive personalized technical, project-based, and HR questions related to their own resume content.
 
@@ -14,6 +14,7 @@ Generate AI-based interview questions
 Evaluate user answers
 Provide feedback and scoring
 Improve interview confidence and communication skills
+
 3. System Architecture
 Frontend
 Built using Streamlit
@@ -34,7 +35,8 @@ Uses Ollama
 Models used:
 Llama 3
 TinyLlama
-4. Key Features
+
+5. Key Features
 Resume Upload
 Upload resume in PDF format
 Extracts resume text automatically
@@ -53,7 +55,8 @@ Displays interview results
 Login & Registration
 User authentication system
 Secure access to application
-5. Technologies Used
+
+7. Technologies Used
 Technology	Purpose
 Python	Core programming language
 FastAPI	Backend framework
@@ -61,7 +64,8 @@ Streamlit	Frontend framework
 Ollama	AI model integration
 Llama 3	Question generation
 Git & GitHub	Version control
-6. Workflow of the Project
+
+9. Workflow of the Project
 Resume Upload
       ↓
 Extract Resume Text
@@ -73,7 +77,8 @@ User Answers Questions
 AI Evaluates Answers
       ↓
 Feedback + Score
-7. Learning Outcomes
+
+11. Learning Outcomes
 
 This project helped in understanding:
 
@@ -85,6 +90,7 @@ Resume parsing techniques
 Streamlit UI development
 FastAPI backend development
 GitHub version control
+
 8. How to Run the Project
 Step 1 — Open Project Folder
 InterviewAI
